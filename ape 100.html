@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APE63070504842Witthawat Kongsabay</title>
+</head>
+<body>
+    <thead>
+        <table border="4" width = 77% style="background-color: rgb(156, 253, 216);"> 
+            <caption><h4><span style="color: rgb(156, 253, 216);">tag html</span></h4></caption>   
+    </thead>
+    <tbody>
+        <tr>
+            <td>01</td>
+            <td>< a ></td> 
+            <td>The < a> tag defines a hyperlink, which is used to link from one page to another.
+
+                The most important attribute of the < a> element is the href attribute, which indicates the link's destination.
+                
+                By default, links will appear as follows in all browsers</td>
+            <td><a href="https://www.google.com">Visit google.com!</a></td>
+        </tr>
+        <tr>
+            <td>02</td>
+            <td>< abbr ></td> 
+            <td>The < abbr> tag defines an abbreviation or an acronym, like "HTML", "CSS", "Mr.", "Dr.", "ASAP", "ATM"</td>
+            <td><abbr title="World Health Organization">WHO</ abbr> was founded in 1948.</td>
+        </tr>
+        <tr>
+            <td>03</td>
+            <td> < address ></td> 
+            <td>The < address> tag defines the contact information for the author/owner of a document or an article.
+
+                The contact information can be an email address, URL, physical address, phone number, social media handle, etc.
+                
+                The text in the < address> element usually renders in italic, and browsers will always add a line break before and after the < address> element</td>
+            <td><address>
+                Written by <a href="mailto:webmaster@example.com">Jon Doe</a>.<br>
+                Visit us at:<br>
+                Example.com<br>
+                Box 564, Disneyland<br>
+                USA
+                </address></td>
+        </tr>
+        <tr>
+            <td>04</td>
+            <td>< area > </h6></td> 
+            <td>
+                The < area> tag defines an area inside an image map (an image map is an image with clickable areas).
+                
+                < area> elements are always nested inside a < map> tag.
+                
+                Note: The usemap attribute in <img> is associated with the <map> element's name attribute, and creates a relationship between the image and the map.</td>
+            <td><img src="workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
+
+                <map name="workmap">
+                  <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+                  <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+                  <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.htm">
+                </map></td>
+        </tr>
+        <tr>
+            <td>05</td>
+            <td>< audio ></td> 
+            <td>The < audio> tag is used to embed sound content in a document, such as music or other audio streams.
+
+                The < audio> tag contains one or more < source> tags with different audio sources. The browser will choose the first source it supports.
+                
+                The text between the < audio> and </ audio> tags will only be displayed in browsers that do not support the < audio> element.
+                
+                There are three supported audio formats in HTML: MP3, WAV, and OGG.</td>
+            <td><audio controls>
+                <source src="horse.ogg" type="audio/ogg">
+                <source src="horse.mp3" type="audio/mpeg">
+                Your browser does not support the audio tag.
+              </audio></td>
+        </tr>
+        <tr>
+            <td>06</td>
+            <td>< b ></td> 
+            <td>The < base> tag specifies the base URL and/or target for all relative URLs in a document.
+
+                The < base> tag must have either an href or a target attribute present, or both.
+                
+                There can only be one single < base> element in a document, and it must be inside the < head> element.
+            .</td>
+            <td><head>
+                <base href="https://www.w3schools.com/" target="_blank">
+              </head>
+              
+              <body>
+              <img src="images/stickman.gif" width="24" height="39" alt="Stickman">
+              <a href="tags/tag_base.asp">HTML base Tag</a>
+              </body></td>
+        </tr>
+        <tr>
+            <td>07</td>
+            <td>< bdo ></td> 
+            <td>BDO stands for Bi-Directional Override.
+
+                The < bdo> tag is used to override the current text direction.</td>
+            <td><bdo dir="rtl">
+                This text will go right-to-left.
+                </bdo></td>
+        </tr>
+        <tr>
+            <td>08</td>
+            <td>< blockquote ></td> 
+            <td>The < blockquote> tag specifies a section that is quoted from another source.
+
+                Browsers usually indent < blockquote> elements (look at example below to see how to remove the indentation).</td>
+            <td><blockquote cite="http://www.worldwildlife.org/who/index.html">
+                For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.
+                </blockquote></td>
+        </tr>
+        <tr>
+            <td>09</td>
+            <td>< botton ></td> 
+            <td>The < button> tag defines a clickable button.</td>
+            <td><button type="button">Click Me!</button></td>
+        </tr>
+    </tbody>
+        <tr>
+            <td>10</td>
+            <td>< canvas ></td> 
+            <td>he < canvas> tag is used to draw graphics, on the fly, via scripting (usually JavaScript).
+
+                The < canvas> tag is transparent, and is only a container for graphics, you must use a script to actually draw the graphics.
+                
+                Any text inside the < canvas> element will be displayed in browsers with JavaScript disabled and in browsers that do not support < canvas>.</td>
+            <td><canvas id="myCanvas">
+                Your browser does not support the canvas tag.
+                </canvas>
+                
+                <script>
+                var canvas = document.getElementById("myCanvas");
+                var ctx = canvas.getContext("2d");
+                ctx.fillStyle = "#FF0000";
+                ctx.fillRect(0, 0, 80, 80);
+                </script></td>
+        </tr>
+        <tr>
+            <td>11</td>
+            <td>< detail ></td> 
+            <td>The < details> tag specifies additional details that the user can open and close on demand.</td>
+            <td><details>
+                <summary>Epcot Center</summary>
+                <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+              </details></td>
+        </tr>
+        <tr>
+            <td>12</td>
+            <td>< table ></td> 
+            <td>The < cite> tag defines the title of a creative work (e.g. a book, a poem, a song, a movie, a painting, a sculpture, etc.).</td>
+            <td><p><cite>The Scream</cite> by Edward Munch. Painted in 1893.</p></td>
+        </tr>
+        
+            <td>13</td>
+            <td>< fieldset ></td> 
+            <td>The < fieldset> tag is used to group related elements in a form.
+
+                The < fieldset> tag draws a box around the related elements.</td>
+            <td><form action="/action_page.php">
+                <fieldset>
+                  <legend>Personalia:</legend>
+                  <label for="fname">First name:</label>
+                  <input type="text" id="fname" name="fname"><br><br>
+                  <label for="lname">Last name:</label>
+                  <input type="text" id="lname" name="lname"><br><br>
+                  <label for="email">Email:</label>
+                  <input type="email" id="email" name="email"><br><br>
+                  <label for="birthday">Birthday:</label>
+                  <input type="date" id="birthday" name="birthday"><br><br>
+                  <input type="submit" value="Submit">
+                </fieldset>
+              </form>
+        
+        <tr>
+            <td>14</td>
+            <td>< data ></td> 
+            <td>The < data> tag is used to add a machine-readable translation of a given content.</td>
+            <td><ul>
+                <li><data value="21053">Cherry Tomato</data></li>
+                <li><data value="21054">Beef Tomato</data></li>
+                <li><data value="21055">Snack Tomato</data></li>
+              </ul>
+              </td>
+        </tr>
+        <tr>
+            <td>15</td>
+            <td>< datalist ></td> 
+            <td>The < datalist> tag specifies a list of pre-defined options for an < input> element.</td>
+            <td><label for="browser">Choose your browser from the list:</label>
+                <input list="browsers" name="browser" id="browser">
+                
+                <datalist id="browsers">
+                  <option value="Edge">
+                  <option value="Firefox">
+                  <option value="Chrome">
+                  <option value="Opera">
+                  <option value="Safari">
+                </datalist></td>
+        </tr>
+
+        </tr>
+    </table>
+    </tbody>
+</body>
+</html>
